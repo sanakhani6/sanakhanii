@@ -1,0 +1,9 @@
+student_grade = int(input("please enter your score:"))
+if student_grade > 90:
+    print("excellent")
+elif student_grade > 70:
+    print("good")
+elif student_grade > 50:
+    print("fine")
+else:
+    print("reject")
